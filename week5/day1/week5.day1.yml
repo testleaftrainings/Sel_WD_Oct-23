@@ -1,0 +1,28 @@
+TestNG
+======
+
+
+   For Sequential Execution
+   =======================
+
+   Select @Test testacase ---> right click --> convert to TestNG
+                     ---> Change location---> finish ---> will execute the xml
+
+   For Parallel Execution
+   ======================
+   Select @Test testacase ---> right click --> convert to TestNG
+                     ---> Change location
+                     ---> in parallel option  will choose classes 
+                     --->finish ---> will execute the xml
+   
+
+   thread-count ---> to set the maximium capacity of my execution.
+
+   verbose ---> to see the detailed error log in the console 
+         Default value is 2
+         generally will use 5 
+
+Parallel 
+========
+      Suite --> parallel ="tests"
+      test ---> parallel ="classes"

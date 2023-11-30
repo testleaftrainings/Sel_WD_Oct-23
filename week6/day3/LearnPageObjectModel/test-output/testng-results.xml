@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21805" started-at="2023-11-29T12:25:19 IST" finished-at="2023-11-29T12:25:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21805" started-at="2023-11-29T12:25:19 IST" finished-at="2023-11-29T12:25:41 IST">
+      <class name="testcases.LoginTC_001">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.LoginTC_001@1786f9d5]" name="preCondition" is-config="true" duration-ms="9853" started-at="2023-11-29T12:25:19 IST" finished-at="2023-11-29T12:25:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin()[pri:0, instance:testcases.LoginTC_001@1786f9d5]" name="runLogin" duration-ms="3802" started-at="2023-11-29T12:25:29 IST" finished-at="2023-11-29T12:25:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.LoginTC_001@1786f9d5]" name="postCondition" is-config="true" duration-ms="983" started-at="2023-11-29T12:25:33 IST" finished-at="2023-11-29T12:25:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.LoginTC_001 -->
+      <class name="testcases.LoginLogoutTC_002">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.LoginLogoutTC_002@3b94d659]" name="preCondition" is-config="true" duration-ms="4593" started-at="2023-11-29T12:25:34 IST" finished-at="2023-11-29T12:25:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogout()[pri:0, instance:testcases.LoginLogoutTC_002@3b94d659]" name="runLogout" duration-ms="1886" started-at="2023-11-29T12:25:39 IST" finished-at="2023-11-29T12:25:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.LoginLogoutTC_002@3b94d659]" name="postCondition" is-config="true" duration-ms="571" started-at="2023-11-29T12:25:41 IST" finished-at="2023-11-29T12:25:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.LoginLogoutTC_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

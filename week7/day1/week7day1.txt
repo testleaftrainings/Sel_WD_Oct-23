@@ -1,0 +1,56 @@
+
+
+Final Keyword
+=============
+
+final - end,  conculsion.
+ In java final is a keyword 
+if i declare any variable or method as a final i can't able to change those values.
+
+Variable --> can able to read/ access the value , but we can't able to change.
+method --> can able to read/access the method, but overriding is not possible.
+	--> Accept method overloading. 
+
+Encapsultion
+============
+
+ binding of data and methods that operate on that data, 
+ restricting direct access.
+
+
+ThreadLocal
+===========
+ - A varaible that is local to each thread.
+ - each thread mean -->its own data for each execution it will be different.
+
+
+Steps to do ThreadLocal 
+=======================
+ 1. Declare ThreadLocal for the RemoteWebDriver 
+ 2. Add setter and getter for the driver
+ 3. setDriver () --> decalare / initalize the driver inistance ( rd.set(new ChromeDriver)
+ 4. getDriver() -- > return rd.get();
+ 5. In @BeforeMethod / PreCondition() --> call setDriver()
+ 6. instead of driver variable use getDriver in the entire project (base , pages)
+
+
+property file
+=============
+ for credentials 
+ multiple language --- > common loctor but value/text present in th UI is different
+
+
+Steps to read property file 
+===========================
+
+ 1. Create property file under src/main/resources or src/test/resources with extenstion as .properties
+ 2. declare value by using key = value 
+	(eg : username = demosalesmanager)--> username - key , demosalesmanager - value.
+ 3. In the preCondition 
+	- Initalize the Properties ---> Properties prop = new Properties()  ---> java
+	- declare FileInputStream ---> FileInputStream file = new FileInputStream(location of the properties file);
+	- load the properties file ---> prop.load(file);
+ 4. declare Properties as static global
+ 5. In the Pages instead username use property file ---> prop.get("username")
+
+

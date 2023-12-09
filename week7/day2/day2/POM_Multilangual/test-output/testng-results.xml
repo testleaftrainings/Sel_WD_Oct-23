@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39468" started-at="2023-12-07T10:17:09 IST" finished-at="2023-12-07T10:17:48 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.CreateLeadTC_003@b3d7190]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testcases.CreateLeadTC_003@51b279c9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="french" duration-ms="38408" started-at="2023-12-07T10:17:09 IST" finished-at="2023-12-07T10:17:47 IST">
+      <class name="testcases.CreateLeadTC_003">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testcases.CreateLeadTC_003@51b279c9]" name="setUpClass" is-config="true" duration-ms="424" started-at="2023-12-07T10:17:09 IST" finished-at="2023-12-07T10:17:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23bb8443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLeadTC_003@51b279c9]" name="preCondition" is-config="true" duration-ms="14308" started-at="2023-12-07T10:17:10 IST" finished-at="2023-12-07T10:17:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[french]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead()[pri:0, instance:testcases.CreateLeadTC_003@51b279c9]" name="runCreateLead" duration-ms="22820" started-at="2023-12-07T10:17:24 IST" finished-at="2023-12-07T10:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLeadTC_003@51b279c9]" name="postCondition" is-config="true" duration-ms="647" started-at="2023-12-07T10:17:47 IST" finished-at="2023-12-07T10:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testcases.CreateLeadTC_003@51b279c9]" name="tearDownClass" is-config="true" duration-ms="54" started-at="2023-12-07T10:17:47 IST" finished-at="2023-12-07T10:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testcases.CreateLeadTC_003 -->
+    </test> <!-- french -->
+    <test name="english" duration-ms="39468" started-at="2023-12-07T10:17:09 IST" finished-at="2023-12-07T10:17:48 IST">
+      <class name="testcases.CreateLeadTC_003">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testcases.CreateLeadTC_003@b3d7190]" name="setUpClass" is-config="true" duration-ms="415" started-at="2023-12-07T10:17:09 IST" finished-at="2023-12-07T10:17:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1176dcec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLeadTC_003@b3d7190]" name="preCondition" is-config="true" duration-ms="14270" started-at="2023-12-07T10:17:10 IST" finished-at="2023-12-07T10:17:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead()[pri:0, instance:testcases.CreateLeadTC_003@b3d7190]" name="runCreateLead" duration-ms="24146" started-at="2023-12-07T10:17:24 IST" finished-at="2023-12-07T10:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLeadTC_003@b3d7190]" name="postCondition" is-config="true" duration-ms="518" started-at="2023-12-07T10:17:48 IST" finished-at="2023-12-07T10:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testcases.CreateLeadTC_003@b3d7190]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2023-12-07T10:17:48 IST" finished-at="2023-12-07T10:17:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testcases.CreateLeadTC_003 -->
+    </test> <!-- english -->
+  </suite> <!-- Suite -->
+</testng-results>

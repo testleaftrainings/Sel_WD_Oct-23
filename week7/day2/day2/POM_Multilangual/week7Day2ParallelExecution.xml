@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite" verbose="5">
+  <test thread-count="2" parallel="tests" name="english">
+  <parameter name="propFileName" value = "english" />
+    <classes>
+      <class name="testcases.CreateLeadTC_003"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="french">
+  <parameter name="propFileName" value = "french" />
+    <classes>
+      <class name="testcases.CreateLeadTC_003"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
